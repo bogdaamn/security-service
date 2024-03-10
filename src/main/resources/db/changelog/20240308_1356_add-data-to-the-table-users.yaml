@@ -1,0 +1,17 @@
+databaseChangeLog:
+  - changeSet:
+      validCheckSum:
+        - ANY
+      id: 20240308_1356
+      author: b.yakovenko
+      preConditions:
+        - onFail: CONTINUE
+        - tableExists:
+            tableName: users
+        - sqlCheck:
+            expectedResult: 0
+            sql: select count(*) from users
+      changes:
+        - loadData:
+            file: data/users.csv
+            tableName: users
