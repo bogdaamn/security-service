@@ -1,8 +1,8 @@
 package com.task.securityservice.mapping;
 
-import com.cities.config.UserInfoDetails;
-import com.cities.persistance.entity.UserEntity;
-import com.cities.type.UserRole;
+import com.task.securityservice.config.UserInfoDetails;
+import com.task.securityservice.persistance.UserEntity;
+import com.task.securityservice.type.UserRole;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingConstants;

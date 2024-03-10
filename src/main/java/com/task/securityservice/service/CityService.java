@@ -1,13 +1,6 @@
 package com.task.securityservice.service;
 
-import com.cities.exception.CityNotFoundException;
-import com.cities.exception.ExtensionNotAllowedException;
-import com.cities.exception.FileNotUploadedException;
-import com.cities.mapping.CityDtoMapper;
-import com.cities.mapping.CityEntityMapper;
-import com.cities.persistance.entity.CityEntity;
-import com.cities.persistance.repository.CityRepository;
-import com.cities.rest.dto.CityDto;
+import com.task.securityservice.mapping.CityEntityMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
@@ -24,8 +17,6 @@ import java.nio.file.StandardCopyOption;
 import java.util.List;
 import java.util.Objects;
 
-import static com.cities.utils.Constants.ALLOWED_EXTENSIONS;
-import static com.cities.utils.Constants.LOGO_DIRECTORY_PATH;
 
 @Service
 public class CityService {

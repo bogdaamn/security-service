@@ -1,7 +1,7 @@
 package com.task.securityservice.mapping;
 
-import com.cities.persistance.entity.UserEntity;
-import com.cities.rest.dto.UserDto;
+import com.task.securityservice.dto.UserDto;
+import com.task.securityservice.persistance.UserEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingConstants;
 

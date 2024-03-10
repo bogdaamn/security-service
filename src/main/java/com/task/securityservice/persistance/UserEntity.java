@@ -1,7 +1,5 @@
 package com.task.securityservice.persistance;
 
-import com.cities.type.UserRole;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

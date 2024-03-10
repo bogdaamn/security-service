@@ -1,8 +1,8 @@
 package com.task.securityservice.mapping;
 
-import com.cities.persistance.entity.CountryEntity;
-import com.cities.rest.dto.CityDto;
-import com.cities.rest.dto.CountryDto;
+import com.task.securityservice.dto.CityDto;
+import com.task.securityservice.dto.CountryDto;
+import com.task.securityservice.persistance.CountryEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingConstants;
 
